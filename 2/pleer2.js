@@ -239,7 +239,7 @@ class AudioPlayer {
     }
 }
 
-// Создание плеера при загрузке страницы
 window.addEventListener('load', () => {
     new AudioPlayer('playerContainer');
+
 });
